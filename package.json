@@ -1,0 +1,20 @@
+{
+  "name": "dncrobot",
+  "version": "14.6.0",
+  "description": "coded by heyxiaolong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy-commands.js",
+    "delete": "node delete-commands.js",
+    "start": "node index.js"
+    
+  },
+  "author": "heyxiaolong",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security"
+  }
+}
